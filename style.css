@@ -26,7 +26,7 @@ header{
    background-image: linear-gradient(to bottom,var(--cor2), var(--cor3));
     max-height: 250px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     
    
     
@@ -36,22 +36,26 @@ header > h1{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 20px;
     text-shadow: 3px 1px 13px;
-    
 
 }
 header > h2{
     color: white;
     max-width:500px;
     margin: auto;
+    margin-top: 30px;
+  
 }
 nav{
+    width: 100%;
     margin-right: 80%;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
+    background-color: #00020E;
+    
     
     
     
@@ -96,8 +100,9 @@ main p{
 }
 .imagens{
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
     align-items: flex-start;
+    gap: 30px;
 
     
 }
@@ -120,11 +125,12 @@ article img{
     color: white;
 }
 .destaques{
-    width: 350px;
-    min-width: 250px;
+    width: 320px;
+    min-width: 320px;
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-left: 40px;
 }
 .destaques h2{
     font-size: 20px;
@@ -138,12 +144,35 @@ article img{
     margin-bottom: 12px;
 }
 a:hover{
-    color: rgba(100, 100, 240, 0.637);
+    color: #003B96;
     
 }
 .sobre{
+    height: 200px;
+    width: 650px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(233, 231, 231);
+
     
-    
+}
+ .titulo-site{
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 5px;
+
+}
+.texto1{
+    margin: auto;
+}
+span{
+    color: #003B96;
+}
+.texto2{
+    margin: auto;
+    padding: 10px;
+
 }
     
     
