@@ -60,6 +60,13 @@ nav ul{
 nav li{
     margin: 0 20px;
 }
+.fa-house{
+    margin-right: 30px;
+    
+}
+.fa-house a:hover{
+    color: #003B96;
+}
 main{
     
 }
