@@ -52,12 +52,14 @@ nav{
     ;
     padding: 15px;
     text-align: center;
+    
 }
 nav a{
     color: white;
     text-decoration: none;
     margin: 0.25px;
     font-weight: bold;
+  
 }
 nav a:hover{
     color:#003B96;
@@ -82,25 +84,31 @@ nav ul li a{
 }
 
 main{
+     max-width: 1200px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+   
 
     
 }
 section{
     display: flex;
     
+    
 }
 .tres{
-   padding: 10px;
+   padding: 1em;
    margin-left: 15px;
+
+
   
 }
 .h2{
     color: black;
     padding: 10px;
-    margin-left: 20px;
-    font-size: 1.8em;
+    margin-left: 13px;
+    font-size: 1.4em;
+    
 }
 
 
