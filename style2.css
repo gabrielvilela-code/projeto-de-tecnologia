@@ -111,12 +111,12 @@ section{
     font-size: 1.4em;
     
 }
-section{
-   
-
+main{
+    width: 400px;
+    height: 400px;
 }
 .quadrado{
-    width: 350px;
+    width: 400px;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -124,10 +124,39 @@ section{
    box-shadow: 0 2px 8px rgba(0,0,0,.08);
 
 }
+aside.imagem1 img{
+    width: 415px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
 h3{
     padding: 10px;
+    text-align: justify;
+  
+}
+p.texto1{
+    padding: 10px;
+    margin: auto;
+    font-size: 1.1em;
+    word-spacing: 2px ;
+   
 }
 
+.link{
+    width: 350px;
+    height: 40px;
+    background-color: #050FA3;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em ;
+    padding: 2px;
+    margin-left: 5px;
+    text-align: bottom,center;
+    
 
+}
 
 
