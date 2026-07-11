@@ -42,6 +42,12 @@ header h1{
     margin: 0px;
     font-family: var(--font1);
 }
+span{
+    color: #050FA3;
+    text-shadow: 3px 0px 15px white ;
+    
+}
+
 h2{
     color: rgb(238, 237, 237);
     font-size: 20px;
@@ -154,9 +160,15 @@ p.texto1{
     font-size: 1.5em ;
     padding: 2px;
     margin-left: 5px;
-    text-align: bottom,center;
+    
     
 
+}
+p.link{
+    text-align:right,bottom;
+    margin:auto;
+    
+   
 }
 
 
