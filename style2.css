@@ -130,11 +130,10 @@ main{
    box-shadow: 0 2px 8px rgba(0,0,0,.08);
 
 }
-aside.imagem1 img{
-    width: 415px;
+aside.imagens{
+    
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    
     
 }
 h3{
@@ -151,15 +150,12 @@ p.texto1{
 }
 
 .link{
-    width: 350px;
-    height: 40px;
+    
     background-color: #050FA3;
     color: white;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 1.5em ;
-    padding: 2px;
-    margin-left: 5px;
+    font-size: 1.2em ;
+    padding: 10px;
+    
     
     
 
@@ -169,6 +165,9 @@ p.link{
     margin:auto;
     
    
+}
+article.img2{
+    display: contents;
 }
 
 
